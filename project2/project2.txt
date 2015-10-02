@@ -1,0 +1,71 @@
+Introduction:
+
+   In this project you will create a linked list and use it in a simple demonstration.
+
+
+
+Description:
+
+   Three lists will be created.  An input file will specify actions to perform
+   on the lists.  
+
+   An add operation will add to the shortest list, or to the first list if they 
+   are all equal in size.  Lists will be kept in sorted order, smallest at the 
+   front, so an add operation will insert to the correct position.
+
+   A cancel operation will remove an item from the lists if found, or report an 
+   error if not.  A cancel operation only removes one matching item in the case 
+   of duplicates.  
+
+   A remove operation will remove the smallest item from the lists.  It will 
+   determine which list has the smallest item and that item is removed.  If 
+   all lists are empty, it prints an error message.
+
+   A print operation will print the contents of the three lists.  
+   
+
+   A linked list will be created to satisfy the above operations.  The linked
+   list should be your own creation, not copied from the textbook or other 
+   sources. You should think through each required method and design and code
+   it yourself.
+
+   The design of the linked list is up to you, as long as it is a linked list
+   that you created.
+
+Input:
+
+   An input file will be posted, and your program should produce the correct
+   output for it as well as any similar file.  Items will always be integers.
+
+   Here is an example of an input file:
+
+     A 4
+     A 5
+     A 3
+     A 1
+     P
+     C 1
+     R
+     R
+     P
+
+
+Output:
+
+   Here is output for the input given above:  
+
+     Added 4 to queue List1
+     Added 5 to queue List2
+     Added 3 to queue List3
+     Added 1 to queue List1
+     [1, 4]
+     [5]
+     [3]
+     Deleted 1
+     Removed 3
+     Removed 4
+     []
+     [5]
+     []
+
+
